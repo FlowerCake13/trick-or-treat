@@ -14,6 +14,7 @@ To complete this project, students should have the following:
 
 ## Concepts
 Concepts | Description
+---------|------------
 Events | Events are "things" that happen to HTML elements. When JavaScript is used, JavaScript can "react" on these events.
 
 Common Events | Description
