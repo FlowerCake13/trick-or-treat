@@ -17,6 +17,7 @@ Concepts | Description
 Events | Events are "things" that happen to HTML elements. When JavaScript is used, JavaScript can "react" on these events.
 
 Common Events | Description
+--------------|-------------
 onchange | HTML element has been changed
 onclick | User clicks on HTML element
 onmouseover | User moves mouse over an HTML element
