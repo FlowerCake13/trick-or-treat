@@ -2,7 +2,7 @@
 
 Open the door and reveal a candy or ghost.
 
-![Example](https://github.com/ginawatanabe/trick-or-treat/blob/master/imgs/example.png)
+![Example](https://github.com/junior-devleague/trick-or-treat/blob/master/imgs/example.png)
 
 ## Objective
 
