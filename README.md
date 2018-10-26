@@ -140,7 +140,7 @@ door1.onmouseover = function(){
   }
   ```
 14. Create a function that will respond to a ```click``` event. Follow the pattern that you saw previously. The ```event``` we used previously was ```mouseover```. Now, we want to react to a ```click``` event. (Hint: Use ```.onclick```)
-  * When a user clicks on door1, we want the door to open with the open sound playing. This should happen only when the door is **not open yet**. Create an ```if statement```. When door1IsOpen === false, do the following:
+  * When a user clicks on door1, we want the door to open with the open sound playing. This should happen only when the door is **not open yet**. Create an ```if statement``` in your click function. When door1IsOpen === false, do the following:
     * Change the ```background-color``` style property of door1 to "black". We can change CSS in javascript using the following pattern:
       * ```[element].style.[property] = ['value'];```
       ``` javascript
@@ -155,7 +155,13 @@ door1.onmouseover = function(){
     * Play the ```close``` sound.
     * Set door1IsOpen to ```false```.  
 
+15. Create the same ```mouseover``` and ```click``` functions for door2 and door3.
 
 ## Stretch Goals
+1. Choose 2 doors. When the door is clicked and the door is not open yet, change the ```background-image``` style property to ```"url('folder/path-to-imagefile.jpg')"```. Set the path to the image file.
+2. Add ```box-shadow``` when the user hovers over the door by using the CSS pseudo-class ```:hover```. Resource: https://www.w3schools.com/css/css_pseudo_classes.asp
 
 ## Resources
+* Events: https://www.w3schools.com/js/js_events.asp
+* CSS Pseudo Classes:  https://www.w3schools.com/css/css_pseudo_classes.asp
+* Changing CSS Styles in JS:  https://www.w3schools.com/js/js_htmldom_css.asp
