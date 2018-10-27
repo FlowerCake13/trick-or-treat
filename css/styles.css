@@ -1,0 +1,10 @@
+body{
+	margin: 0;
+}
+
+#container{
+	width: calc(100vw);
+	height: calc(100vh);
+	display: flex;
+	align-items: 
+}
